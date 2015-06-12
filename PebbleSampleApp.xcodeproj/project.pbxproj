@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDA23A291B2AC35C00CEFD98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA23A281B2AC35C00CEFD98 /* Foundation.framework */; };
+		DDA23A2B1B2AC35C00CEFD98 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA23A2A1B2AC35C00CEFD98 /* CoreGraphics.framework */; };
+		DDA23A2D1B2AC35C00CEFD98 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA23A2C1B2AC35C00CEFD98 /* UIKit.framework */; };
+		DDA23A331B2AC35C00CEFD98 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDA23A311B2AC35C00CEFD98 /* InfoPlist.strings */; };
+		DDA23A351B2AC35C00CEFD98 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA23A341B2AC35C00CEFD98 /* main.m */; };
+		DDA23A391B2AC35C00CEFD98 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA23A381B2AC35C00CEFD98 /* AppDelegate.m */; };
+		DDA23A411B2AC35C00CEFD98 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDA23A401B2AC35C00CEFD98 /* Images.xcassets */; };
+		DDA23A481B2AC35C00CEFD98 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA23A471B2AC35C00CEFD98 /* XCTest.framework */; };
+		DDA23A491B2AC35C00CEFD98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA23A281B2AC35C00CEFD98 /* Foundation.framework */; };
+		DDA23A4A1B2AC35C00CEFD98 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA23A2C1B2AC35C00CEFD98 /* UIKit.framework */; };
+		DDA23A521B2AC35C00CEFD98 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDA23A501B2AC35C00CEFD98 /* InfoPlist.strings */; };
+		DDA23A541B2AC35C00CEFD98 /* PebbleSampleAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA23A531B2AC35C00CEFD98 /* PebbleSampleAppTests.m */; };
+		DDA23A601B2AC39400CEFD98 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA23A5E1B2AC39400CEFD98 /* ViewController.m */; };
+		DDA23A611B2AC39400CEFD98 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDA23A5F1B2AC39400CEFD98 /* ViewController.xib */; };
+		DDA23A641B2AC49700CEFD98 /* PebbleKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA23A621B2AC49700CEFD98 /* PebbleKit.framework */; };
+		DDA23A651B2AC49700CEFD98 /* PebbleVendor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA23A631B2AC49700CEFD98 /* PebbleVendor.framework */; };
+		DDA23A671B2AC4A300CEFD98 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA23A661B2AC4A300CEFD98 /* CoreMotion.framework */; };
+		DDA23A691B2AC4AB00CEFD98 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA23A681B2AC4AB00CEFD98 /* MessageUI.framework */; };
+		DDA23A6B1B2AC4B600CEFD98 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA23A6A1B2AC4B600CEFD98 /* ExternalAccessory.framework */; };
+		DDA23A6F1B2AC4C700CEFD98 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA23A6E1B2AC4C700CEFD98 /* CoreBluetooth.framework */; };
+		DDA23A751B2ACEB100CEFD98 /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA23A731B2AC4FF00CEFD98 /* libz.1.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDA23A4B1B2AC35C00CEFD98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDA23A1D1B2AC35C00CEFD98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDA23A241B2AC35C00CEFD98;
+			remoteInfo = PebbleSampleApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDA23A251B2AC35C00CEFD98 /* PebbleSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PebbleSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDA23A281B2AC35C00CEFD98 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DDA23A2A1B2AC35C00CEFD98 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DDA23A2C1B2AC35C00CEFD98 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DDA23A301B2AC35C00CEFD98 /* PebbleSampleApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PebbleSampleApp-Info.plist"; sourceTree = "<group>"; };
+		DDA23A321B2AC35C00CEFD98 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DDA23A341B2AC35C00CEFD98 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDA23A361B2AC35C00CEFD98 /* PebbleSampleApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PebbleSampleApp-Prefix.pch"; sourceTree = "<group>"; };
+		DDA23A371B2AC35C00CEFD98 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DDA23A381B2AC35C00CEFD98 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DDA23A401B2AC35C00CEFD98 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DDA23A461B2AC35C00CEFD98 /* PebbleSampleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PebbleSampleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDA23A471B2AC35C00CEFD98 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DDA23A4F1B2AC35C00CEFD98 /* PebbleSampleAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PebbleSampleAppTests-Info.plist"; sourceTree = "<group>"; };
+		DDA23A511B2AC35C00CEFD98 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DDA23A531B2AC35C00CEFD98 /* PebbleSampleAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PebbleSampleAppTests.m; sourceTree = "<group>"; };
+		DDA23A5D1B2AC39400CEFD98 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DDA23A5E1B2AC39400CEFD98 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DDA23A5F1B2AC39400CEFD98 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		DDA23A621B2AC49700CEFD98 /* PebbleKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PebbleKit.framework; path = PebbleSampleApp/PebbleKit.framework; sourceTree = "<group>"; };
+		DDA23A631B2AC49700CEFD98 /* PebbleVendor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PebbleVendor.framework; path = PebbleSampleApp/PebbleVendor.framework; sourceTree = "<group>"; };
+		DDA23A661B2AC4A300CEFD98 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		DDA23A681B2AC4AB00CEFD98 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		DDA23A6A1B2AC4B600CEFD98 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		DDA23A6C1B2AC4BE00CEFD98 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		DDA23A6E1B2AC4C700CEFD98 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		DDA23A701B2AC4CF00CEFD98 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		DDA23A731B2AC4FF00CEFD98 /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = usr/lib/libz.1.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDA23A221B2AC35C00CEFD98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA23A751B2ACEB100CEFD98 /* libz.1.dylib in Frameworks */,
+				DDA23A6F1B2AC4C700CEFD98 /* CoreBluetooth.framework in Frameworks */,
+				DDA23A6B1B2AC4B600CEFD98 /* ExternalAccessory.framework in Frameworks */,
+				DDA23A691B2AC4AB00CEFD98 /* MessageUI.framework in Frameworks */,
+				DDA23A671B2AC4A300CEFD98 /* CoreMotion.framework in Frameworks */,
+				DDA23A641B2AC49700CEFD98 /* PebbleKit.framework in Frameworks */,
+				DDA23A651B2AC49700CEFD98 /* PebbleVendor.framework in Frameworks */,
+				DDA23A2B1B2AC35C00CEFD98 /* CoreGraphics.framework in Frameworks */,
+				DDA23A2D1B2AC35C00CEFD98 /* UIKit.framework in Frameworks */,
+				DDA23A291B2AC35C00CEFD98 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA23A431B2AC35C00CEFD98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA23A481B2AC35C00CEFD98 /* XCTest.framework in Frameworks */,
+				DDA23A4A1B2AC35C00CEFD98 /* UIKit.framework in Frameworks */,
+				DDA23A491B2AC35C00CEFD98 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDA23A1C1B2AC35C00CEFD98 = {
+			isa = PBXGroup;
+			children = (
+				DDA23A2E1B2AC35C00CEFD98 /* PebbleSampleApp */,
+				DDA23A4D1B2AC35C00CEFD98 /* PebbleSampleAppTests */,
+				DDA23A271B2AC35C00CEFD98 /* Frameworks */,
+				DDA23A261B2AC35C00CEFD98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDA23A261B2AC35C00CEFD98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDA23A251B2AC35C00CEFD98 /* PebbleSampleApp.app */,
+				DDA23A461B2AC35C00CEFD98 /* PebbleSampleAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDA23A271B2AC35C00CEFD98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDA23A731B2AC4FF00CEFD98 /* libz.1.dylib */,
+				DDA23A701B2AC4CF00CEFD98 /* CFNetwork.framework */,
+				DDA23A6E1B2AC4C700CEFD98 /* CoreBluetooth.framework */,
+				DDA23A6C1B2AC4BE00CEFD98 /* CoreLocation.framework */,
+				DDA23A6A1B2AC4B600CEFD98 /* ExternalAccessory.framework */,
+				DDA23A681B2AC4AB00CEFD98 /* MessageUI.framework */,
+				DDA23A661B2AC4A300CEFD98 /* CoreMotion.framework */,
+				DDA23A621B2AC49700CEFD98 /* PebbleKit.framework */,
+				DDA23A631B2AC49700CEFD98 /* PebbleVendor.framework */,
+				DDA23A281B2AC35C00CEFD98 /* Foundation.framework */,
+				DDA23A2A1B2AC35C00CEFD98 /* CoreGraphics.framework */,
+				DDA23A2C1B2AC35C00CEFD98 /* UIKit.framework */,
+				DDA23A471B2AC35C00CEFD98 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDA23A2E1B2AC35C00CEFD98 /* PebbleSampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				DDA23A371B2AC35C00CEFD98 /* AppDelegate.h */,
+				DDA23A381B2AC35C00CEFD98 /* AppDelegate.m */,
+				DDA23A5D1B2AC39400CEFD98 /* ViewController.h */,
+				DDA23A5E1B2AC39400CEFD98 /* ViewController.m */,
+				DDA23A5F1B2AC39400CEFD98 /* ViewController.xib */,
+				DDA23A401B2AC35C00CEFD98 /* Images.xcassets */,
+				DDA23A2F1B2AC35C00CEFD98 /* Supporting Files */,
+			);
+			path = PebbleSampleApp;
+			sourceTree = "<group>";
+		};
+		DDA23A2F1B2AC35C00CEFD98 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDA23A301B2AC35C00CEFD98 /* PebbleSampleApp-Info.plist */,
+				DDA23A311B2AC35C00CEFD98 /* InfoPlist.strings */,
+				DDA23A341B2AC35C00CEFD98 /* main.m */,
+				DDA23A361B2AC35C00CEFD98 /* PebbleSampleApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDA23A4D1B2AC35C00CEFD98 /* PebbleSampleAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDA23A531B2AC35C00CEFD98 /* PebbleSampleAppTests.m */,
+				DDA23A4E1B2AC35C00CEFD98 /* Supporting Files */,
+			);
+			path = PebbleSampleAppTests;
+			sourceTree = "<group>";
+		};
+		DDA23A4E1B2AC35C00CEFD98 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDA23A4F1B2AC35C00CEFD98 /* PebbleSampleAppTests-Info.plist */,
+				DDA23A501B2AC35C00CEFD98 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDA23A241B2AC35C00CEFD98 /* PebbleSampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDA23A571B2AC35C00CEFD98 /* Build configuration list for PBXNativeTarget "PebbleSampleApp" */;
+			buildPhases = (
+				DDA23A211B2AC35C00CEFD98 /* Sources */,
+				DDA23A221B2AC35C00CEFD98 /* Frameworks */,
+				DDA23A231B2AC35C00CEFD98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PebbleSampleApp;
+			productName = PebbleSampleApp;
+			productReference = DDA23A251B2AC35C00CEFD98 /* PebbleSampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDA23A451B2AC35C00CEFD98 /* PebbleSampleAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDA23A5A1B2AC35C00CEFD98 /* Build configuration list for PBXNativeTarget "PebbleSampleAppTests" */;
+			buildPhases = (
+				DDA23A421B2AC35C00CEFD98 /* Sources */,
+				DDA23A431B2AC35C00CEFD98 /* Frameworks */,
+				DDA23A441B2AC35C00CEFD98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDA23A4C1B2AC35C00CEFD98 /* PBXTargetDependency */,
+			);
+			name = PebbleSampleAppTests;
+			productName = PebbleSampleAppTests;
+			productReference = DDA23A461B2AC35C00CEFD98 /* PebbleSampleAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDA23A1D1B2AC35C00CEFD98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = emx;
+				TargetAttributes = {
+					DDA23A241B2AC35C00CEFD98 = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					DDA23A451B2AC35C00CEFD98 = {
+						TestTargetID = DDA23A241B2AC35C00CEFD98;
+					};
+				};
+			};
+			buildConfigurationList = DDA23A201B2AC35C00CEFD98 /* Build configuration list for PBXProject "PebbleSampleApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDA23A1C1B2AC35C00CEFD98;
+			productRefGroup = DDA23A261B2AC35C00CEFD98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDA23A241B2AC35C00CEFD98 /* PebbleSampleApp */,
+				DDA23A451B2AC35C00CEFD98 /* PebbleSampleAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDA23A231B2AC35C00CEFD98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA23A411B2AC35C00CEFD98 /* Images.xcassets in Resources */,
+				DDA23A611B2AC39400CEFD98 /* ViewController.xib in Resources */,
+				DDA23A331B2AC35C00CEFD98 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA23A441B2AC35C00CEFD98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA23A521B2AC35C00CEFD98 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDA23A211B2AC35C00CEFD98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA23A601B2AC39400CEFD98 /* ViewController.m in Sources */,
+				DDA23A391B2AC35C00CEFD98 /* AppDelegate.m in Sources */,
+				DDA23A351B2AC35C00CEFD98 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA23A421B2AC35C00CEFD98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA23A541B2AC35C00CEFD98 /* PebbleSampleAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDA23A4C1B2AC35C00CEFD98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDA23A241B2AC35C00CEFD98 /* PebbleSampleApp */;
+			targetProxy = DDA23A4B1B2AC35C00CEFD98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDA23A311B2AC35C00CEFD98 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDA23A321B2AC35C00CEFD98 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DDA23A501B2AC35C00CEFD98 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDA23A511B2AC35C00CEFD98 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDA23A551B2AC35C00CEFD98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DDA23A561B2AC35C00CEFD98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDA23A581B2AC35C00CEFD98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/sarvjeet/Desktop/PebbleSampleApp/PebbleSampleApp,
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PebbleSampleApp/PebbleSampleApp-Prefix.pch";
+				INFOPLIST_FILE = "PebbleSampleApp/PebbleSampleApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DDA23A591B2AC35C00CEFD98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/sarvjeet/Desktop/PebbleSampleApp/PebbleSampleApp,
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PebbleSampleApp/PebbleSampleApp-Prefix.pch";
+				INFOPLIST_FILE = "PebbleSampleApp/PebbleSampleApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DDA23A5B1B2AC35C00CEFD98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PebbleSampleApp.app/PebbleSampleApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PebbleSampleApp/PebbleSampleApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PebbleSampleAppTests/PebbleSampleAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DDA23A5C1B2AC35C00CEFD98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PebbleSampleApp.app/PebbleSampleApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PebbleSampleApp/PebbleSampleApp-Prefix.pch";
+				INFOPLIST_FILE = "PebbleSampleAppTests/PebbleSampleAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDA23A201B2AC35C00CEFD98 /* Build configuration list for PBXProject "PebbleSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDA23A551B2AC35C00CEFD98 /* Debug */,
+				DDA23A561B2AC35C00CEFD98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDA23A571B2AC35C00CEFD98 /* Build configuration list for PBXNativeTarget "PebbleSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDA23A581B2AC35C00CEFD98 /* Debug */,
+				DDA23A591B2AC35C00CEFD98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDA23A5A1B2AC35C00CEFD98 /* Build configuration list for PBXNativeTarget "PebbleSampleAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDA23A5B1B2AC35C00CEFD98 /* Debug */,
+				DDA23A5C1B2AC35C00CEFD98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDA23A1D1B2AC35C00CEFD98 /* Project object */;
+}
